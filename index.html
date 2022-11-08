@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            
+            <!-- =================================== -->
+            <!-- POUR LE MENU DEROULANT VERTICAL -->
+            <!-- =================================== -->
+            
+            <div class="col-lg-3 col-md-4 bd-layout py-3" id="deroulantVertical">
+                <nav class="bd-links">
+                    <aside class="bd-sidebar">
+                        <ul class="list-unstyled mb-1">
+                            <li class="list-item mb-4">
+                                <i class="bi bi-bootstrap-fill"></i>
+                                <span class="names">Abram Vaccaro</span>
+                            </li>
+
+                            <li class="list-item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" name="search" class="form-control" id="search" placeholder="Quick find...">
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="list-item mt-4 py-1">
+                                <i class="bi bi-inbox-fill mx-2"></i>
+                                <span class="text-dark">Inbox</span>
+                            </li>
+                            <li class="list-item py-2">
+                                <div class="row">
+                                    <div class="col">
+                                        <i class="bi bi-calendar2-check-fill mx-2"></i>
+                                        <span class="text-dark">Today</span>
+                                        <span class="badge bg-secondary rounded-pill text-white  mx-2">777777</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item py-2">
+                                <i class="bi bi-calendar-fill mx-2"></i>
+                                <span class="text-dark">Upcoming</span>
+                            </li>
+                            <li class="list-item py-2">
+                                <i class="bi bi-archive-fill mx-2"></i>
+                                <span class="text-dark">Someday</span>
+                            </li>
+                            
+                            <li class="list-item">
+                                <i class="bi bi-trash mx-2"></i>
+                                <span class="text-dark">Trash</span>
+                            </li>
+                        </ul>
+                        <hr>
+                        
+                        <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#liste" aria-expanded="true" aria-controls="true">
+                            <span class="bi bi-chevron-right"></span> <span class="text-muted">List</span>
+                        </button>
+                        <div class="collapse" id="liste">
+                            <ul class="list-unstyled">
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Personal</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">7</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Work</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">4</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Lecture</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">3</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <i class="bi bi-bag-plus"></i>
+                                    <span class="text-muted">New list</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#liste2" aria-expanded="true" aria-controls="true">
+                            <span class="bi bi-chevron-right"></span> <span class="text-muted">Label</span>
+                        </button>
+                        <div class="collapse" id="liste2">
+                            <ul class="list-unstyled">
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Personal</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">7</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Work</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">4</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <a href="#" class="d-inline-flex align-items-center rounded">Lecture</a>
+                                    <span class="badge bg-secondary rounded-pill text-white">3</span>
+                                </li>
+                                <li class="list-item mx-3 py-2">
+                                    <i class="bi bi-bag-plus"></i>
+                                    <span class="text-muted">New list</span>
+                                </li>
+                            </ul>
+                        </div>
+                        </ul>
+                    </aside>
+                </nav>
+            </div>
+
+            <!-- =================================== -->
+            <!-- POUR LE MENU DEROULANT VERTICAL -->
+            <!-- =================================== -->
+
+
+            <div class="col-lg-9 col-md-8 gy-2">
+                <nav class="nav list-item justify-content-end">
+                    <a class="nav-link position-relative" aria-current="page" href="#"><i class="bi bi-bell-fill"></i>
+                        <span class="badge rounded-pill bg-danger position-absolute top-0 text-white">8</span>
+                    </a>
+                    <a class="nav-link" href="#"><i class="bi bi-chat-fill"></i></a>
+                    <a class="nav-link" href="#"><i class="bi bi-github"></i></a>
+                  </nav>
+                  
+                  <!-- CONTENU DE NOTRE DIV CONTAINER -->
+                  
+                  <div class="container my-3">
+                        <i class="bi bi-emoji-smile-fill"></i>
+                        <h2 class="text-bolder">Personal</h2>
+
+                        <div>
+                            <i class="bi bi-plus"></i> <span>New Task</span>
+                        </div>
+
+                        <button class="btn" data-bs-toggle="collapse" data-bs-target="#skincare" aria-controls="true" aria-expanded="true">
+                            <span class="bi bi-chevron-right"></span> Skincare
+                            <span class="badge bg-secondary text-white">4</span>
+                        </button>
+            
+                        <div class="collapse" id="skincare">
+                            <ul class="list-unstyled mb-1">
+                                <li class="list-item mx-4 py-2">
+                                    <span class="bi bi-three-dots-vertical"></span>
+                                    <input type="checkbox" name="daily_routine"> 
+                                    <label for="daily_routine"> Daily routine</label>
+                                    <span class="badge bg-success rounded-pill text-white mx-2"> Today</span>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="deep_exfoliation">
+                                    <label for="deep_exfoliation"> Deep exfoliation</label>
+                                    <span class="badge bg-secondary rounded-pill text-dark mx-2"> Tomorrow</span>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id=""checked="true">
+                                    <label for="brightness" class="text-muted" > Brightening Mask</label>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="" checked="true">
+                                    <label for="scrubbing" class="text-muted" > Scrubbing</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <button class="btn" data-bs-toggle="collapse" data-bs-target="#housework" aria-controls="true" aria-expanded="true">
+                            <span class="bi bi-chevron-right"></span> Housework
+                            <span class="badge bg-secondary rounded-pill text-white">6</span>
+                        </button>
+
+                        <div class="collapse" id="housework">
+                            <ul class="list-unstyled">
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="">
+                                    <label for=""> Wash mattress covers, pillow, covers, duvets</label>
+                                    <span class="badge bg-secondary rounded-pill"> 16 sept</span>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="">
+                                    <label for=""> Dust, wash window covering</label>
+                                    <span class="badge bg-secondary rounded-pill"> 16 sept</span>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="">
+                                    <label for=""> Throughly clean bathrooms</label>
+                                    <span class="badge bg-secondary rounded-pill"> 17 sept</span>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="" checked="true">
+                                    <label for="" class="text-muted"> Vacuum or sweep all floors</label>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="" checked="true">
+                                    <label for="" class="text-muted"> Wash clothes, bed and towels</label>
+                                </li>
+                                <li class="list-item mx-4 py-2">
+                                    <input type="checkbox" name="" id="" checked="true">
+                                    <label for="" class="text-muted"> Daily chores</label>
+                                </li>
+                            </ul>
+                        </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
